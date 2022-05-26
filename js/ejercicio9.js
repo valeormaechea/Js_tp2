@@ -1,4 +1,4 @@
-for (i = 1; i <= 500; i++) {
+for (let i = 1; i <= 500; i++) {
   document.write(i);
   if (i % 4 == 0) {
     document.write(" (Múltiplo de 4)");
